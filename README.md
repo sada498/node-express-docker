@@ -4,6 +4,7 @@
   git clone https://github.com/sada498/node-express-docker.git
   ```
 change the directory 
+
  ```
  cd <your folder name>
  ```
@@ -12,7 +13,8 @@ To install the dependences
  
         npm  init
            
-'npm init' will download required node modules for the application 
+  npm init 
+ will download required node modules for the application 
 
  check the application working 
  
