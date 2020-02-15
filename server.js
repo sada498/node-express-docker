@@ -13,6 +13,12 @@ app.use(express.static('public'));
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname+'/index.html'));
 });
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname+'/node.html'));
+});
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname+'/express.html'));
+});
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
