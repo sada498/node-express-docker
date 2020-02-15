@@ -1,5 +1,5 @@
-# node-express-docker
- ###### Clone the GIT repo into your local environment 
+# Node-Express- Docker
+ Clone the GIT repo into your local environment 
 ```
   git clone https://github.com/sada498/node-express-docker.git
   ```
@@ -12,37 +12,39 @@ To install the dependences
  
         npm  init
            
-it will download required node modules for the application 
+'npm init' will download required node modules for the application 
+
  check the application working 
  
  
       node server.js
 
 
-after node server running check on your local browser
+After node server running check on your local browser
 
      localhost:8080
      
 Docker for desktop 
-https://www.docker.com/products/docker-desktop
+[Docker](https://www.docker.com/products/docker-desktop)
 
-dockerization your node-express application 
+
+Dockerization your node-express application 
 
     docker build -t <your docker hub Id/node app name>
   
     docker build -t sada498/node-dockerapp .
 
-Note: enter dot is so  . import end of the command to execute you docker build.
-Check your docker images  
+**Note: Enter dot is so  . import end of the command to execute you docker build.
+Check your docker images** 
 
     docker run -p 8080:8080 -d  <your docker hub Id/node app name>
     
-you successfully dockerize your application.
- To check the docker images 
+You successfully dockerize your application.
+To check the docker images 
  
     docker images ls
     
-to check the list existing docker containers in running state. 
+To check the list existing docker containers in running state. 
 
     docker ps
  
@@ -50,7 +52,7 @@ list existing docker containers
 
      docker container ls
 
- to stop the run container 
+ To stop the run container 
  
     docker container stop <container ID>
  
