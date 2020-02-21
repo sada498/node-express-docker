@@ -26,7 +26,7 @@ After node server running check on your local browser
 
      localhost:8080
      
-Docker for desktop 
+Docker for desktop download depending upon your system requriments.
 [Docker](https://www.docker.com/products/docker-desktop)
 
 
